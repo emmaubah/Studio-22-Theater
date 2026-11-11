@@ -1,0 +1,170 @@
+/* General page styling */
+body {
+    background-color: #0e1420;
+    color: #f5f6f8;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+/* Website header */
+header {
+    background-color: #192435;
+    border-bottom: 3px solid #d8ad61;
+    text-align: center;
+    padding: 28px 15px;
+}
+
+header h1 {
+    font-size: 38px;
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+header h1 span {
+    color: #e5ba71;
+}
+
+header p {
+    color: #bcc6d3;
+    margin: 10px 0;
+}
+
+/* Navigation links */
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 14px;
+    font-size: 15px;
+}
+
+nav a:hover {
+    color: #e5ba71;
+}
+
+/* Main content */
+main {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 35px 20px 60px;
+}
+
+/* Welcome section */
+.welcome {
+    background-color: #1a2638;
+    border: 1px solid #29384e;
+    border-radius: 12px;
+    padding: 30px 20px;
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.small-heading {
+    color: #e5ba71;
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+
+.welcome h2 {
+    font-size: 28px;
+    margin: 12px 0;
+}
+
+.welcome p:last-child {
+    color: #c0c9d4;
+}
+
+/* Movie section heading */
+.section-title {
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+
+.section-description {
+    color: #abb7c7;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+/* Movie cards */
+.movie-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+    gap: 20px;
+}
+
+.movie-card {
+    background-color: #1a2638;
+    border: 1px solid #29384e;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.movie-card h3 {
+    font-size: 16px;
+    margin: 14px 8px 18px;
+}
+
+/* Poster areas: add pictures to the images folder to show real posters. */
+.poster {
+    height: 255px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 12px;
+    box-sizing: border-box;
+}
+
+.poster span {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    text-shadow: 0 2px 6px #000;
+}
+
+.godzilla {
+    background-color: #2b4555;
+    background-image: linear-gradient(transparent, #0b111c), url('images/godzilla.jpg');
+}
+
+.cat {
+    background-color: #73563e;
+    background-image: linear-gradient(transparent, #1a1720), url('images/cat.jpg');
+}
+
+.ramayana {
+    background-color: #6a3d3d;
+    background-image: linear-gradient(transparent, #1d1317), url('images/ramayana.jpg');
+}
+
+.wicker {
+    background-color: #555161;
+    background-image: linear-gradient(transparent, #171420), url('images/wicker.jpg');
+}
+
+.street {
+    background-color: #414b70;
+    background-image: linear-gradient(transparent, #101724), url('images/street.jpg');
+}
+
+/* Footer */
+footer {
+    background-color: #192435;
+    border-top: 2px solid #d8ad61;
+    text-align: center;
+    padding: 25px 15px;
+    color: #c0c9d4;
+    font-size: 14px;
+}
+
+footer p {
+    margin: 8px 0;
+}
